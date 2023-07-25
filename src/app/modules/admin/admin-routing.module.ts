@@ -4,7 +4,7 @@ import { AboutComponent } from './component/about/about.component';
 import { AdminDashboardComponent } from './component/admin-dashboard/admin-dashboard.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { HomeComponent } from './component/home/home.component';
-import { PageNotFoundComponent } from 'src/app/components/page-not-found/page-not-found.component';
+
 
 const routes: Routes = [
   {

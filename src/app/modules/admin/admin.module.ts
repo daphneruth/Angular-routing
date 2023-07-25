@@ -17,7 +17,8 @@ import { AdminDashboardComponent } from './component/admin-dashboard/admin-dashb
     FooterComponent,
     ContactComponent,
     HomeComponent,
-    AdminDashboardComponent
+    AdminDashboardComponent,
+    
   ],
   imports: [
     CommonModule,
