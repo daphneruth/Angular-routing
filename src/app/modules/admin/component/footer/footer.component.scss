@@ -81,8 +81,11 @@ p {
 .dk-footer {
   padding: 75px 0 0;
   background-color: #151414;
-  position: relative;
-  z-index: 2; }
+  z-index: 2; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;}
   .dk-footer .contact-us {
     margin-top: 0;
     margin-bottom: 30px;
