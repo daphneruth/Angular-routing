@@ -8,6 +8,7 @@ import { FooterComponent } from './component/footer/footer.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { HomeComponent } from './component/home/home.component';
 import { AdminDashboardComponent } from './component/admin-dashboard/admin-dashboard.component';
+import { ServicesComponent } from './component/services/services.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { AdminDashboardComponent } from './component/admin-dashboard/admin-dashb
     ContactComponent,
     HomeComponent,
     AdminDashboardComponent,
+    ServicesComponent,
   
     
   ],
