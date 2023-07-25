@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { RouterModule } from '@angular/router';
 import { AdminRoutingModule } from './admin-routing.module';
 import { HeaderComponent } from './component/header/header.component';
 import { AboutComponent } from './component/about/about.component';
@@ -18,11 +18,13 @@ import { AdminDashboardComponent } from './component/admin-dashboard/admin-dashb
     ContactComponent,
     HomeComponent,
     AdminDashboardComponent,
+  
     
   ],
   imports: [
     CommonModule,
-    AdminRoutingModule
+    AdminRoutingModule,
+    RouterModule
   ]
 })
 export class AdminModule { }
